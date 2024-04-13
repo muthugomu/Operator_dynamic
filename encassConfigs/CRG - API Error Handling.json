@@ -1,0 +1,94 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc68f1",
+  "guid": "2f98c882-79db-46de-8f87-e454094d6efd",
+  "name": "CRG - API Error Handling",
+  "checksum": "2afae457a6ec34b0f7d11dfdbd9aeb3c1bfb151d",
+  "description": "Default error handling for outbound API calls.",
+  "policyName": "CRG - API Error Handling",
+  "encassArgs": [
+    {
+      "name": "Access-Token.message",
+      "type": "MESSAGE",
+      "ordinal": 6,
+      "guiPrompt": false
+    },
+    {
+      "name": "clientIpAddress",
+      "type": "STRING",
+      "ordinal": 9,
+      "guiPrompt": false
+    },
+    {
+      "name": "clientTxnId",
+      "type": "STRING",
+      "ordinal": 8,
+      "guiPrompt": false
+    },
+    {
+      "name": "errorComponent",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": true,
+      "guiLabel": "Component (for audit)"
+    },
+    {
+      "name": "errorLog",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": true,
+      "guiLabel": "Log file (defaults to api.errors)"
+    },
+    {
+      "name": "httpRouting.latency",
+      "type": "STRING",
+      "ordinal": 3,
+      "guiPrompt": false
+    },
+    {
+      "name": "httpRouting.reasonCode",
+      "type": "STRING",
+      "ordinal": 4,
+      "guiPrompt": false
+    },
+    {
+      "name": "httpRouting.url",
+      "type": "STRING",
+      "ordinal": 5,
+      "guiPrompt": false
+    },
+    {
+      "name": "username",
+      "type": "STRING",
+      "ordinal": 7,
+      "guiPrompt": false
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "errorMessage",
+      "type": "STRING"
+    },
+    {
+      "name": "errorStatus",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "artifactVersion",
+      "value": "d26c0ac83f0ea62a296e46f0b01377ca59f725de"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "audit"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

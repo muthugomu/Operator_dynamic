@@ -1,0 +1,33 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc68dc",
+  "guid": "8c8926a0-9e4d-4e65-aa50-b00891d6ca34",
+  "name": "CRG - Get Client IP Address",
+  "checksum": "65bee0aed24786e069679ac206674a18ddd277ce",
+  "description": "This assertion is used to retrieve the client IP address either from the X-Real-IP header (if passed by the NGINX reverse proxy) or the TCP layer",
+  "policyName": "CRG - Get Client IP Address",
+  "encassArgs": [],
+  "encassResults": [
+    {
+      "name": "clientIpAddress",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "artifactVersion",
+      "value": "173aaf24cd5f2ea0b500a42b468322fe5a8ce8ff"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "audit"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc6b17",
+  "name": "DEV LDAP",
+  "checksum": "0ae0452e610640082a670a55d9a150e38827df6b",
+  "ldapUrls": [
+    "ldap://host:port"
+  ],
+  "ldapsClientAuthEnabled": false,
+  "searchBase": "dn=crg",
+  "writable": false,
+  "bindDn": "",
+  "bindPassword": "JEw3RXYwMiS0oxUCj/hDDgAp1m0M15bU9judOyLT57DyKr5HfAJHcQ==",
+  "userMappings": [
+    {
+      "objClass": "inetOrgPerson",
+      "nameAttrName": "cn",
+      "loginAttrName": "uid",
+      "passwdAttrName": "userPassword",
+      "firstNameAttrName": "givenName",
+      "lastNameAttrName": "sn",
+      "emailNameAttrName": "mail",
+      "kerberosAttrName": "uid",
+      "userCertAttrName": "userCertificate;binary",
+      "passwdType": {
+        "val": 0
+      }
+    }
+  ],
+  "groupMappings": [
+    {
+      "objClass": "posixGroup",
+      "nameAttrName": "cn",
+      "memberAttrName": "memberUid",
+      "memberStrategy": {
+        "val": 1
+      }
+    },
+    {
+      "objClass": "groupOfUniqueNames",
+      "nameAttrName": "cn",
+      "memberAttrName": "uniqueMember",
+      "memberStrategy": {
+        "val": 2
+      }
+    },
+    {
+      "objClass": "organizationalUnit",
+      "nameAttrName": "ou",
+      "memberAttrName": "",
+      "memberStrategy": {
+        "val": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc6b3c",
+  "name": "Private Port (7443)",
+  "checksum": "0113b09c17eb5461e86ac778207573a2a03fa967",
+  "enabled": true,
+  "protocol": "HTTPS",
+  "port": 7443,
+  "enabledFeatures": [
+    "PUBLISHED_SERVICE_MESSAGE_INPUT"
+  ],
+  "tlsSettings": {
+    "clientAuthentication": "NONE",
+    "tlsVersions": [
+      "TLSv1.2",
+      "TLSv1.3"
+    ],
+    "useCipherSuitesOrder": true
+  },
+  "properties": [
+    {
+      "name": "enableWebSocket",
+      "value": "false"
+    },
+    {
+      "name": "useExtendedFtpCommandSet",
+      "value": "false"
+    }
+  ]
+}

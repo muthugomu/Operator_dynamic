@@ -1,0 +1,63 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc6912",
+  "guid": "94b7bfcd-e21f-4e94-8a92-f1e8a6599488",
+  "name": "CRG - Custom Error Response",
+  "checksum": "28ce84dfe696f4d60601df664e694eba242063f2",
+  "description": "Sets default error response to 401 (Unauthorized) in JSON format.  Sets status, content type, and message to use context variables.",
+  "policyName": "CRG - Custom Error Response",
+  "encassArgs": [
+    {
+      "name": "errorContentType",
+      "type": "STRING",
+      "ordinal": 2,
+      "guiPrompt": true,
+      "guiLabel": "Content type (default JSON)"
+    },
+    {
+      "name": "errorMessage",
+      "type": "STRING",
+      "ordinal": 3,
+      "guiPrompt": true,
+      "guiLabel": "Error message (default '{{\"errorCode\": 1015}})"
+    },
+    {
+      "name": "errorStatus",
+      "type": "STRING",
+      "ordinal": 1,
+      "guiPrompt": true,
+      "guiLabel": "HTTP Status (default 401)"
+    }
+  ],
+  "encassResults": [
+    {
+      "name": "errorContentType",
+      "type": "STRING"
+    },
+    {
+      "name": "errorMessage",
+      "type": "STRING"
+    },
+    {
+      "name": "errorStatus",
+      "type": "STRING"
+    }
+  ],
+  "properties": [
+    {
+      "name": "allowTracing",
+      "value": "false"
+    },
+    {
+      "name": "artifactVersion",
+      "value": "c56a141905cb6dc797a2f404da97fb3a8794700a"
+    },
+    {
+      "name": "paletteFolder",
+      "value": "audit"
+    },
+    {
+      "name": "passMetricsToParent",
+      "value": "false"
+    }
+  ]
+}

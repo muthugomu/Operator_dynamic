@@ -1,0 +1,8 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc69d1",
+  "name": "crg.urls.gen3na.api",
+  "checksum": "b1eef58d07aee35443b3a63bf297b938eb3a527c",
+  "description": "Testing APIs",
+  "hiddenProperty": false,
+  "value": "https://httpbin.org"
+}

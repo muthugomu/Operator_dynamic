@@ -1,0 +1,8 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc6af4",
+  "name": "crg.warfile.ADConnect",
+  "checksum": "e56915d942bb0887e362871baeeb0fea7afdf956",
+  "description": "ADConnect",
+  "hiddenProperty": false,
+  "value": "aws.adconnect.com"
+}

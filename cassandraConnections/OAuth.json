@@ -1,0 +1,15 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc6b0a",
+  "name": "OAuth",
+  "checksum": "50e37e6a165a3abfc20c00083125fac5e263daf8",
+  "enabled": true,
+  "keyspace": "otk_db",
+  "contactPoints": [
+    "OTKDB"
+  ],
+  "port": 9042,
+  "compression": "NONE",
+  "username": "otk_user",
+  "securePasswordName": "otk_userpass",
+  "sslEnabled": false
+}

@@ -1,0 +1,11 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc67b7",
+  "guid": "c9457051-3b1f-4790-926d-c73fa6133d04",
+  "name": "Global Message Receied",
+  "tag": "message-received",
+  "checksum": "aec7baf3261bbedfe3d8d8e0679635203f45ac43",
+  "folderPath": "/Global Policies",
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:CommentAssertion>\n            <L7p:Comment stringValue=\"Policy Fragment: Global Message Receied\"/>\n        </L7p:CommentAssertion>\n        <L7p:AuditDetailAssertion>\n            <L7p:Detail stringValue=\"Service Name: ${service.name}\"/>\n        </L7p:AuditDetailAssertion>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}

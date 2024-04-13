@@ -1,0 +1,18 @@
+{
+  "goid": "4d93b941548c2fff647c18a84bcc6958",
+  "name": "SSG",
+  "checksum": "d98866e45be90e11c2a2c81cfa8a3fdda9d3cbe4",
+  "enabled": true,
+  "driverClass": "com.mysql.jdbc.Driver",
+  "jdbcUrl": "jdbc:mysql://gateway-mysql:3306/ssg",
+  "username": "gateway",
+  "password": "JEw3RXYwMiQZJGLJ0jck3s5UsFjKYDnGGrmBlVxsajuo1wj3CyXOWw==",
+  "minPoolSize": 3,
+  "maxPoolSize": 15,
+  "properties": [
+    {
+      "name": "EnableCancelTimeout",
+      "value": "true"
+    }
+  ]
+}
